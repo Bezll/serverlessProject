@@ -37,6 +37,13 @@ functions:
                 path: /get-gig-data/{id}
                 method: GET
                 #   cors: true
+    createGigData:
+        handler: lambdas/endpoints/createGigData.handler
+        events:
+            - httpApi:
+                path: /create-gig-data/{id}
+                method: POST
+                #   cors: true
 
 
 resources:

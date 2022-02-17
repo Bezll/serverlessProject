@@ -1,6 +1,6 @@
 const { DynamoDB } = require("aws-sdk");
 const {sendResponse200, sendResponse400} = require("../common/api_responses");
-const {getDynamo} = require("../common/Dynamo")
+const {getDynamo, createDynamo} = require("../common/Dynamo")
 
 const tableName = process.env.tableName
 
@@ -14,14 +14,17 @@ exports.handler = async (event) => {
 
 	let id = event.pathParameters.id;
 
-    const gig = await getDynamo(id, tableName).catch(err => {
-        console.log('error in Dynamo Get', err);
+    const gig = JSON.parse(event.body)
+    gig.id = id
+
+    const newGig = await createDynamo(gig, tableName).catch(err => {
+        console.log('error in dynamo write', err);
         return null
     })
 
-    if (!gig) {
-        return sendResponse400({ message: "Failed to get gig by id" });
+    if (!newGig) {
+        return sendResponse400({ message: "Failed to write user by id" });
     }
 
-    return sendResponse200({ gig });
+    return sendResponse200({ newGig });
 }
