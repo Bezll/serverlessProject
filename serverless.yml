@@ -1,5 +1,4 @@
 service: serverlessproject
-frameworkVersion: "3"
 
 plugins:
     - serverless-offline
@@ -30,28 +29,34 @@ functions:
     getUser:
         handler: lambdas/endpoints/getUser.handler
         events:
-            - httpApi:
+            - http:
                 path: /user/{id}
                 method: GET
+                cors: true
     getGigData:
         handler: lambdas/endpoints/getGigData.handler
         events:
-            - httpApi:
+            - http:
                 path: /get-gig-data/{id}
                 method: GET
-                
+                cors: true
+                private: true
     createGigData:
         handler: lambdas/endpoints/createGigData.handler
         events:
-            - httpApi:
+            - http:
                 path: /create-gig-data/{id}
                 method: POST
+                cors: true
+                private: true
     sendSMS:
         handler: lambdas/endpoints/sendSMS.handler
         events:
-            - httpApi:
+            - http:
                 path: /send-sms
                 method: POST
+                cors: true
+                private: true
 
 
 resources:

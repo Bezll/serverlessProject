@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "serverless": "^2.72.2",
     "serverless-offline": "^8.4.0"
   },
   "name": "serverlessproject",
