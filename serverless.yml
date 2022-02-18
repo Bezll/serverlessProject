@@ -8,7 +8,6 @@ provider:
     name: aws
     runtime: nodejs12.x
     profile: serverlessUser
-    # stage adn region below
     stage: dev
     region: eu-west-2
     environment:
@@ -17,7 +16,12 @@ provider:
         - Effect: Allow
           Action:
               - dynamodb:*
+              - sns:setSMSAttributes
+              - sns:Publish
           Resource: '*'
+    apiGateway:
+        apiKeys:
+            - FirstApiKey
 
 custom:
     tableName: gig-data
@@ -29,21 +33,25 @@ functions:
             - httpApi:
                 path: /user/{id}
                 method: GET
-                #   cors: true
     getGigData:
         handler: lambdas/endpoints/getGigData.handler
         events:
             - httpApi:
                 path: /get-gig-data/{id}
                 method: GET
-                #   cors: true
+                
     createGigData:
         handler: lambdas/endpoints/createGigData.handler
         events:
             - httpApi:
                 path: /create-gig-data/{id}
                 method: POST
-                #   cors: true
+    sendSMS:
+        handler: lambdas/endpoints/sendSMS.handler
+        events:
+            - httpApi:
+                path: /send-sms
+                method: POST
 
 
 resources:

@@ -1,6 +1,6 @@
 const { DynamoDB } = require("aws-sdk");
 const {sendResponse200, sendResponse400} = require("../common/api_responses");
-const {getDynamo, createDynamo} = require("../common/Dynamo")
+const { createDynamo } = require("../common/Dynamo")
 
 const tableName = process.env.tableName
 
