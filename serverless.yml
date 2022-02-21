@@ -11,6 +11,7 @@ provider:
     region: eu-west-2
     environment:
         tableName: ${self:custom.tableName}
+        tableName2: ${self:custom.tableName2}
     iamRoleStatements:
         - Effect: Allow
           Action:
@@ -24,20 +25,38 @@ provider:
 
 custom:
     tableName: gig-data
+    tableName2: venue-data
 
 functions:
-    getUser:
-        handler: lambdas/endpoints/getUser.handler
+    getAllGigData:
+        handler: lambdas/endpoints/getAllGigData.handler
         events:
             - http:
-                path: /user/{id}
+                path: /get-gig-data
                 method: GET
                 cors: true
+                private: true
     getGigData:
         handler: lambdas/endpoints/getGigData.handler
         events:
             - http:
                 path: /get-gig-data/{id}
+                method: GET
+                cors: true
+                private: true
+    getAllVenueData:
+        handler: lambdas/endpoints/getAllVenueData.handler
+        events:
+            - http:
+                path: /get-venue-data
+                method: GET
+                cors: true
+                private: true
+    getVenueData:
+        handler: lambdas/endpoints/getVenueData.handler
+        events:
+            - http:
+                path: /get-venue-data/{id}
                 method: GET
                 cors: true
                 private: true
@@ -65,6 +84,17 @@ resources:
             Type: AWS::DynamoDB::Table
             Properties:
                 TableName: ${self:custom.tableName}
+                AttributeDefinitions:
+                    - AttributeName: id
+                      AttributeType: S
+                KeySchema:
+                    - AttributeName: id
+                      KeyType: HASH
+                BillingMode: PAY_PER_REQUEST
+        MyDynamoDbTable2:
+            Type: AWS::DynamoDB::Table
+            Properties:
+                TableName: ${self:custom.tableName2}
                 AttributeDefinitions:
                     - AttributeName: id
                       AttributeType: S

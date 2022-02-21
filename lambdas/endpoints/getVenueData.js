@@ -1,8 +1,8 @@
 const { DynamoDB } = require("aws-sdk");
 const {sendResponse200, sendResponse400} = require("../common/api_responses");
-const {getGigById} = require("../common/Dynamo")
+const {getVenueById} = require("../common/Dynamo")
 
-const tableName = process.env.tableName
+const tableName2 = process.env.tableName2
 
 exports.handler = async (event) => {
 	console.log("event", event);
@@ -14,14 +14,14 @@ exports.handler = async (event) => {
 
 	let id = event.pathParameters.id;
 
-    const gig = await getGigById(id, tableName).catch(err => {
+    const venue = await getVenueById(id, tableName2).catch(err => {
         console.log('error in Dynamo Get', err);
         return null
     })
 
-    if (!gig) {
-        return sendResponse400({ message: "Failed to get gig by id" });
+    if (!venue) {
+        return sendResponse400({ message: "Failed to get venue by id" });
     }
 
-    return sendResponse200({ gig });
+    return sendResponse200({ venue });
 }

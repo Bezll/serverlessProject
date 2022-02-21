@@ -2,7 +2,25 @@ const AWS = require('aws-sdk');
 
 const documentClient = new AWS.DynamoDB.DocumentClient();
 
-module.exports.getDynamo = async(id, TableName) => {
+module.exports.getAllGigData = async(TableName) => {
+    let ScanningParams = {
+        TableName,
+        Limit: 100
+    };
+
+    const data = await documentClient
+        .scan(ScanningParams)
+        .promise();
+
+    if (!data) {
+        throw Error(`There was an error fetching the data from ${TableName}`)
+    }
+    console.log(data);
+
+    return data
+}
+
+module.exports.getGigById = async(id, TableName) => {
     const params = {
         TableName,
         Key: {
@@ -22,6 +40,43 @@ module.exports.getDynamo = async(id, TableName) => {
     return data.Item
 }
 
+module.exports.getAllVenueData = async(TableName) => {
+    let ScanningParams = {
+        TableName,
+        Limit: 100
+    };
+
+    const data = await documentClient
+        .scan(ScanningParams)
+        .promise();
+
+    if (!data) {
+        throw Error(`There was an error fetching the data from ${TableName}`)
+    }
+    console.log(data);
+
+    return data
+}
+
+module.exports.getVenueById = async(id, TableName) => {
+    const params = {
+        TableName,
+        Key: {
+            id
+        }
+    };
+
+    const data = await documentClient
+        .get(params)
+        .promise();
+
+    if (!data || !data.Item) {
+        throw Error(`There was an error fetching the data for id of ${id} from ${TableName}`)
+    }
+    console.log(data);
+
+    return data.Item
+}
 
 module.exports.createDynamo = async(data, TableName) => {
     if (!data.id) {
