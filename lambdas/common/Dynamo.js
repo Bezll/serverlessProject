@@ -116,3 +116,24 @@ module.exports.updateGigData = async ({
 
 	return data;
 };
+
+module.exports.queryGigData = async ({
+	tableName,
+	index,
+	queryKey,
+	queryValue,
+}) => {
+	const params = {
+		TableName: tableName,
+		IndexName: index,
+		KeyConditionExpression: `${queryKey} = :hkey`,
+		ExpressionAttributeValues: {
+			":hkey": queryValue,
+		},
+	};
+
+	console.log("params>>", params);
+	const data = await documentClient.query(params).promise();
+
+	return data.Items || [];
+};
