@@ -18,7 +18,7 @@ provider:
               - dynamodb:*
               - sns:setSMSAttributes
               - sns:Publish
-          Resource: '*'
+          Resource: "*"
     apiGateway:
         apiKeys:
             - FirstApiKey
@@ -32,51 +32,58 @@ functions:
         handler: lambdas/endpoints/getAllGigData.handler
         events:
             - http:
-                path: /get-gig-data
-                method: GET
-                cors: true
-                private: true
+                  path: /get-gig-data
+                  method: GET
+                  cors: true
+                  private: true
     getGigData:
         handler: lambdas/endpoints/getGigData.handler
         events:
             - http:
-                path: /get-gig-data/{id}
-                method: GET
-                cors: true
-                private: true
+                  path: /get-gig-data/{id}
+                  method: GET
+                  cors: true
+                  private: true
     getAllVenueData:
         handler: lambdas/endpoints/getAllVenueData.handler
         events:
             - http:
-                path: /get-venue-data
-                method: GET
-                cors: true
-                private: true
+                  path: /get-venue-data
+                  method: GET
+                  cors: true
+                  private: true
     getVenueData:
         handler: lambdas/endpoints/getVenueData.handler
         events:
             - http:
-                path: /get-venue-data/{id}
-                method: GET
-                cors: true
-                private: true
+                  path: /get-venue-data/{id}
+                  method: GET
+                  cors: true
+                  private: true
     createGigData:
         handler: lambdas/endpoints/createGigData.handler
         events:
             - http:
-                path: /create-gig-data/{id}
-                method: POST
-                cors: true
-                private: true
+                  path: /create-gig-data/{id}
+                  method: POST
+                  cors: true
+                  private: true
+    updateGigData:
+        handler: lambdas/endpoints/patchGigData.handler
+        events:
+            - http:
+                  path: /patch-gig-data/{id}
+                  method: PUT
+                  cors: true
+                  private: true
     sendSMS:
         handler: lambdas/endpoints/sendSMS.handler
         events:
             - http:
-                path: /send-sms
-                method: POST
-                cors: true
-                private: true
-
+                  path: /send-sms
+                  method: POST
+                  cors: true
+                  private: true
 
 resources:
     Resources:
@@ -102,4 +109,3 @@ resources:
                     - AttributeName: id
                       KeyType: HASH
                 BillingMode: PAY_PER_REQUEST
-
