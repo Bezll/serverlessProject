@@ -132,7 +132,6 @@ module.exports.queryGigData = async ({
 		},
 	};
 
-	console.log("params>>", params);
 	const data = await documentClient.query(params).promise();
 
 	return data.Items || [];
