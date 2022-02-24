@@ -1,500 +1,468 @@
 exports.gigData = [
-
-	{
-		date: "19-03-2022",
-		venue_id: 30,
-		spotify: "https://open.spotify.com/artist/6M6XXCcO5gI68XpIlrUL3Z",
-		end: "22:00",
-		description:
-			"Young T & Bugsey are a British hip hop duo from Nottingham, consisting of rappers Ra'chard Young T Tucker and Doyin Bugsey Julius.",
-		id: "63",
-		price: 15,
-		genre: "Hip Hop",
-		bandName: "Young T & Bugsey",
-		start: "20:15",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb2c0fea4283facd1e10561a99",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f1782c0fea4283facd1e10561a99",
-	},
-	{
-		date: "25-03-2022",
-		venue_id: 1,
-		spotify: "https://open.spotify.com/artist/0W2ZH8knJiOzH0ZwXnsgox",
-		end: "22:30",
-		price: 30,
-		description:
-			"The Four Owls, or simply The Owls is a British hip hop group formed in 2011. The group is signed to English label High Focus Records and is composed entirely of previously established High Focus members under bird-themed aliases: Fliptrix, Verb T, BVA, and Leaf Dog.",
-		id: "64",
-		genre: "Hip Hop",
-		start: "20:15",
-		bandName: "The Four Owls",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebd01c90f290c5961e9cf9e7a3",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178d01c90f290c5961e9cf9e7a3",
-	},
-	{
-		date: "18-03-2022",
-		venue_id: 4,
-		spotify: "https://open.spotify.com/artist/1N2FgBLehaq77UEdJhCt7f",
-		end: "01:00",
-		price: 10.5,
-		description:
-			"Saint Etienne are an English band from London, formed in 1990. The band consists of Sarah Cracknell, Bob Stanley and Pete Wiggs. They became associated with the UK's indie dance scene in the 1990s, beginning with the release of their debut album Foxbase Alpha in 1991.",
-		id: "36",
-		genre: "Electronic",
-		start: "21:00",
-		bandName: "Saint Etienne",
-		big_url:
-			"https://i.scdn.co/image/ab6772690000dd22278e26189e2bf51e2d48a63e",
-		small_url:
-			"https://i.scdn.co/image/ab6772690000bac3278e26189e2bf51e2d48a63e",
-	},
-	{
-		date: "20-03-2022",
-		venue_id: 16,
-		spotify: "https://open.spotify.com/artist/1Dvfqq39HxvCJ3GvfeIFuT",
-		end: "23:45",
-		price: 23,
-		description:
-			"Mastodon is an American heavy metal band from Atlanta, Georgia, formed in 2000. The group is composed of Troy Sanders, Brent Hinds, Bill Kelliher, and Brann Dailor. Mastodon has released eight studio albums, as well as a number of other releases.",
-		id: "49",
-		genre: "Rock",
-		start: "21:30",
-		bandName: "Mastodon",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebf84fe9e6fbb2aa001d6cbbd9",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178f84fe9e6fbb2aa001d6cbbd9",
-	},
-	{
-		date: "18-03-2022",
-		venue_id: 1,
-		spotify: "https://open.spotify.com/artist/2jYMYP2SVifgmzNRQJx3SJ",
-		end: "21:00",
-		price: 28,
-		description:
-			"Modeselektor is a German electronic music duo consisting of Gernot Bronsert and Sebastian Szary.",
-		id: "33",
-		genre: "Electronic",
-		start: "18:30",
-		bandName: "Modeselektor",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebdbf9a15ccc6d609c6491243b",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178dbf9a15ccc6d609c6491243b",
-	},
-	{
-		date: "11-03-2022",
-		venue_id: 15,
-		spotify: "https://open.spotify.com/artist/1h6Cn3P4NGzXbaXidqURXs",
-		end: "20:00",
-		price: 20,
-		description:
-			"Swedish House Mafia is a Swedish house music supergroup consisting of Axwell, Steve Angello and Sebastian Ingrosso.",
-		id: "22",
-		genre: "Electronic",
-		start: "22:30",
-		bandName: "Swedish House Mafia",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb0c05adcae61ac479afe35c8e",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f1780c05adcae61ac479afe35c8e",
-	},
-	{
-		date: "12-03-2022",
-		venue_id: 19,
-		spotify: "https://open.spotify.com/artist/4wLIbcoqmqI4WZHDiBxeCB",
-		end: "20:45",
-		description:
-			"Sleater-Kinney is an American rock band that formed in Olympia, Washington, in 1994. The band's current lineup features Corin Tucker and Carrie Brownstein, following the departure of longtime member Janet Weiss in 2019.",
-		id: "18",
-		price: 24.99,
-		genre: "Rock",
-		bandName: "Sleater-Kinney",
-		start: "18:45",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebdceba92082d35e25f712751b",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178dceba92082d35e25f712751b",
-	},
-	{
-		date: "18-03-2022",
-		venue_id: 17,
-		spotify: "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn",
-		end: "23:45",
-		price: 23,
-		description:
-			"King Gizzard & the Lizard Wizard are an Australian rock band formed in 2010 in Melbourne, Victoria. The band consists of Stu Mackenzie, Ambrose Kenny-Smith, Cook Craig, Joey Walker, Lucas Harwood, and Michael Cavanagh.",
-		id: "50",
-		genre: "Rock",
-		start: "21:30",
-		bandName: "King Gizzard & the Lizard Wizard",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebae21e90221e814c50033133a",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178ae21e90221e814c50033133a",
-	},
-	{
-		date: "12-03-2022",
-		venue_id: 21,
-		spotify: "https://open.spotify.com/artist/1yAwtBaoHLEDWAnWR87hBT",
-		end: "21:45",
-		price: 15,
-		description:
-			"Modest Mouse is an American rock band formed in 1992 in Issaquah, Washington, and currently based in Portland, Oregon. The founding members are lead singer/guitarist Isaac Brock, drummer Jeremiah Green, and bassist Eric Judy.",
-		id: "16",
-		genre: "Rock",
-		start: "19:00",
-		bandName: "Modest Mouse",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb3ff03c042ca55bcc7e7f490e",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f1783ff03c042ca55bcc7e7f490e",
-	},
-	{
-		date: "19-03-2022",
-		venue_id: 8,
-		spotify: "https://open.spotify.com/artist/2zW15LxDEcrbOkLUgvyp8i",
-		end: "22:30",
-		price: 9,
-		description:
-			"Verb T has released 10 albums and six EPs as well as numerous singles. His first release was the 12-track EP Backhand Slap Talk / Technical Illness which was a shared release featuring songs from fellow London-based rapper Kashmere. It was released on Low Life Records.",
-		id: "40",
-		genre: "Hip Hop",
-		start: "19:30",
-		bandName: "Verb T",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb26acc52215246ddbd22d779e",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f17826acc52215246ddbd22d779e",
-	},
-	{
-		date: "12-03-2022",
-		venue_id: 3,
-		spotify: "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5",
-		end: "23:30",
-		description:
-			"The Red Hot Chili Peppers are an American rock band formed in Los Angeles in 1983. Their music incorporates elements of alternative rock, funk, punk rock and psychedelic rock. The band consists of co-founders Anthony Kiedis (lead vocals) and Flea (bass), as well as drummer Chad Smith, and guitarist John Frusciante. With over 100 million records sold worldwide, the Red Hot Chili Peppers are one of the best-selling bands of all time.",
-		id: "2",
-		price: 55,
-		genre: "Rock",
-		bandName: "Red Hot Chili Peppers",
-		start: "22:00",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebb0dd96d5c6fcd8b068834373",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178b0dd96d5c6fcd8b068834373",
-	},
-	{
-		date: "13-03-2022",
-		venue_id: 23,
-		spotify: "https://open.spotify.com/artist/4MzJMcHQBl9SIYSjwWn8QW",
-		end: "21:45",
-		price: 18,
-		description:
-			"Spiritbox is a Canadian heavy metal band from Victoria, British Columbia. Husband and wife duo guitarist Mike Stringer and vocalist Courtney LaPlante established Spiritbox in 2017. The band's full lineup comprises LaPlante and Stringer, bassist Bill Crook, and drummer Zev Rose.",
-		id: "13",
-		genre: "Metal",
-		start: "19:00",
-		bandName: "Spiritbox",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb4dff6ff0678153d025aca99c",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f1784dff6ff0678153d025aca99c",
-	},
-	{
-		date: "18-03-2022",
-		venue_id: 21,
-		spotify: "https://open.spotify.com/artist/5WSlKTn8XCAH31eAVaJ4Wj",
-		end: "00:00",
-		price: 30,
-		description:
-			"Dogleg was an American post-hardcore band formed in Detroit, Michigan in 2015. They released their debut album, Melee in 2020 to critical acclaim. The band is fronted by Alex Stoitsiadis as lead vocalist and rhythm guitarist, with Chase Macinski on bass, Parker Grissom on guitar, and Jacob Hanlon on drums.",
-		id: "54",
-		genre: "Punk",
-		start: "22:30",
-		bandName: "Dogleg",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebff96afe754f57e84dd13b7f4",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178ff96afe754f57e84dd13b7f4",
-	},
-	{
-		date: "25-03-2022",
-		venue_id: 23,
-		spotify: "https://open.spotify.com/artist/73A3bLnfnz5BoQjb4gNCga",
-		end: "00:00",
-		price: 25,
-		description:
-			"Bicep are an electronic music production and DJ duo from Belfast, Northern Ireland, consisting of Andrew Ferguson and Matthew McBriar.",
-		id: "79",
-		genre: "Electronic",
-		start: "20:00",
-		bandName: "Bicep",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb12052b6d44804a4d7eae5530",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f17812052b6d44804a4d7eae5530",
-	},
-	{
-		date: "11-03-2022",
-		venue_id: 29,
-		spotify: "https://open.spotify.com/artist/4kSGbjWGxTchKpIxXPJv0B",
-		end: "23:30",
-		price: 35,
-		description:
-			"Crumb is an American psychedelic rock band. The group is a collaboration of Brooklyn-based musicians Lila Ramani, Jesse Brotter, Bri Aronow, and Jonathan Gilad, who met while attending Tufts University.",
-		id: "8",
-		genre: "Rock",
-		start: "21:00",
-		bandName: "Crumb",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebc769a31c11e0977b87d812e9",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178c769a31c11e0977b87d812e9",
-	},
-	{
-		date: "26-03-2022",
-		venue_id: 3,
-		spotify: "https://open.spotify.com/artist/3LmkRGuUav9Un8TDMjwKSg",
-		end: "23:30",
-		price: 10,
-		description:
-			"Skengdo & AM, whose real names are Terrell Doyley and Joshua Malinga, respectively, are a British drill duo from Brixton, London. They are both members of the UK drill group and alleged gang, 410. The group is known to have conflict with neighbouring Harlem Spartans, based in Kennington.",
-		id: "66",
-		genre: "Hip Hop",
-		start: "21:30",
-		bandName: "Skengdo & AM",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb5ff34afbdbcfbd46b0f74252",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f1785ff34afbdbcfbd46b0f74252",
-	},
-	{
-		date: "18-03-2022",
-		venue_id: 16,
-		spotify: "https://open.spotify.com/artist/16eRpMNXSQ15wuJoeqguaB",
-		end: "23:45",
-		price: 20,
-		description:
-			"The Flaming Lips are an American psychedelic rock band formed in 1983 in Oklahoma City, Oklahoma. The band currently consists of Wayne Coyne, Steven Drozd, Derek Brown, Matt Duckworth Kirksey and Nicholas Ley. The group recorded several albums and EPs on an indie label, Restless, in the 1980s and early 1990s.",
-		id: "48",
-		genre: "Rock",
-		start: "21:30",
-		bandName: "The Flaming Lips",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebbaf865cbf7ef15f97d6ef1fe",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178baf865cbf7ef15f97d6ef1fe",
-	},
-	{
-		date: "13-03-2022",
-		venue_id: 28,
-		spotify: "https://open.spotify.com/artist/7Hvq85OU8T7Hsd63zNBwaL",
-		end: "23:45",
-		price: 45,
-		description:
-			"Black Midi are an English rock band from London, formed in 2017. The band currently consists of Geordie Greep, Cameron Picton and Morgan Simpson. Seth Evans and Kaidi Akinnibi have been frequent collaborators in both studio and live performances since 2020.",
-		id: "9",
-		genre: "Rock",
-		start: "21:15",
-		bandName: "Black Midi",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb069ff978752054a7e015daab",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178069ff978752054a7e015daab",
-	},
-	{
-		date: "20-03-2022",
-		venue_id: 26,
-		spotify: "https://open.spotify.com/artist/6VsiDFMZJlJ053P1uO4A6h",
-		end: "01:00",
-		description:
-			"Public Service Broadcasting are a London-based musical group consisting of: J. Willgoose, Esq. on guitar, banjo, other stringed instruments, samplings and electronic musical instruments; Wrigglesworth on drums, piano and electronic musical instruments; and J F Abraham on flugelhorn, bass guitar, drums and assorted other instruments including a vibraslap.",
-		id: "59",
-		price: 8,
-		genre: "Electronic",
-		bandName: "Public Service Broadcasting",
-		start: "23:00",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebcaf51b945f5199500d58d114",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178caf51b945f5199500d58d114",
-	},
-	{
-		date: "13-03-2022",
-		venue_id: 2,
-		spotify: "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi",
-		end: "23:00",
-		description:
-			"Daft Punk are a French electronic music duo formed in 1993 in Paris by Guy-Manuel de Homem-Christo and Thomas Bangalter. Widely regarded as one of the greatest and most influential acts in dance music history, they achieved popularity in the late 1990s as part of the French house movement. They garnered critical acclaim and commercial success in the years following, combining elements of house music with funk, techno, disco, indie rock and pop.",
-		id: "1",
-		price: 15,
-		genre: "Electronic",
-		bandName: "Daft Punk",
-		start: "21:00",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb96d66c60658005885d1135ce",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f17896d66c60658005885d1135ce",
-	},
-	{
-		date: "11-03-2022",
-		venue_id: 6,
-		spotify: "https://open.spotify.com/artist/240wlM8vDrf6S4zCyzGj2W",
-		end: "23:55",
-		price: 28,
-		description:
-			"CamelPhat are an English DJ and production duo, consisting of Dave Whelan and Mike Di Scala, formed in Liverpool in 2004. They are best known for the 2017 single Cola, which peaked at number 3 in the UK Dance Chart, and at number 18 in the UK Singles Chart.",
-		id: "31",
-		genre: "Electronic",
-		start: "21:30",
-		bandName: "CamelPhat",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb93a3ec5e8addcbfe818ab825",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f17893a3ec5e8addcbfe818ab825",
-	},
-	{
-		date: "27-03-2022",
-		venue_id: 20,
-		spotify: "https://open.spotify.com/artist/6sFIWsNpZYqfjUpaCgueju",
-		end: "00:00",
-		price: 25,
-		description:
-			"Carly Rae Jepsen is a Canadian singer, songwriter, and actress. Born and raised in Mission, British Columbia, Jepsen pursued a musical theatre program at the Canadian College of Performing Arts in Victoria, British Columbia.",
-		id: "80",
-		genre: "Pop",
-		start: "23:00",
-		bandName: "Carly Rae Jepsen",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb71fed7c1f401da1662f209cb",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f17871fed7c1f401da1662f209cb",
-	},
-	{
-		date: "11-03-2022",
-		venue_id: 1,
-		spotify: "https://open.spotify.com/artist/34EP7KEpOjXcM2TCat1ISk",
-		end: "18:00",
-		description:
-			"Wu-Tang Clan is an American hip hop group formed in Staten Island, New York City, in 1992. Its original members include RZA, GZA, Ol' Dirty Bastard, Method Man, Raekwon, Ghostface Killah, Inspectah Deck, U-God, and Masta Killa. Close affiliate Cappadonna later became an official member. Wu-Tang Clan are regarded as a highly influential group in hip hop, helping to popularize and develop the East Coast hip hop and hardcore hip hop styles.",
-		id: "6",
-		price: 29.99,
-		genre: "Hip Hop",
-		bandName: "Wu Tang Clan",
-		start: "15:15",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebe60866298962b71792b2bf1a",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178e60866298962b71792b2bf1a",
-	},
-	{
-		date: "19-03-2022",
-		venue_id: 29,
-		spotify: "https://open.spotify.com/artist/5VadK1havLhK1OpKYsXv9y",
-		end: "22:45",
-		price: 13,
-		description:
-			"D-Block Europe, often abbreviated to DBE, is a British hip hop collective consisting of Adam Nathaniel Young Adz Williams, Ricky Earl Dirtbike LB Banton and Lil Pino from Lewisham, London. Their name is a reference to The Lox. They started to put out tracks on their own label in the beginning of 2014.",
-		id: "62",
-		genre: "Hip Hop",
-		start: "21:15",
-		bandName: "D-Block Europe",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb80c0419d9cbf4adaad221709",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f17880c0419d9cbf4adaad221709",
-	},
-	{
-		date: "25-03-2022",
-		venue_id: 28,
-		spotify: "https://open.spotify.com/artist/0HlxL5hisLf59ETEPM3cUA",
-		end: "01:40",
-		price: 23,
-		description:
-			"Scooter is a German happy hardcore, rave and techno music band founded in Hamburg in 1993. To date, the band has sold over 30 million records and earned over 80 Gold and Platinum awards. Scooter is considered the most commercially successful German single-record act with 23 top ten hits.",
-		id: "75",
-		genre: "Electronic",
-		start: "23:40",
-		bandName: "Scooter",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb1c4c2e0aeb040b12215dfc8a",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f1781c4c2e0aeb040b12215dfc8a",
-	},
-	{
-		date: "26-03-2022",
-		venue_id: 26,
-		spotify: "https://open.spotify.com/artist/54QMjE4toDfiCryzYWCpXX",
-		end: "01:40",
-		price: 25,
-		description:
-			"Metronomy are an English electronic music group formed in 1999. As of 2021, the band consists of Joseph Mount, Oscar Cash, Anna Prior, Olugbenga Adelekan and Michael Lovett. Their music consists of vocal and instrumental electronic pop music.",
-		id: "76",
-		genre: "Electronic",
-		start: "23:40",
-		bandName: "Metronomy",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb86dd27699ca06ca87a355c62",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f17886dd27699ca06ca87a355c62",
-	},
-	{
-		date: "27-03-2022",
-		venue_id: 10,
-		spotify: "https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3",
-		end: "21:30",
-		price: 53,
-		description:
-			"Harry Edward Styles is an English singer, songwriter and actor. His musical career began in 2010 as a solo contestant on the British music competition series The X Factor.",
-		id: "84",
-		genre: "Pop",
-		start: "19:00",
-		bandName: "Harry Styles",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebd9f70439ec8893ef495e1b7e",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178d9f70439ec8893ef495e1b7e",
-	},
-	{
-		date: "19-03-2022",
-		venue_id: 27,
-		spotify: "https://open.spotify.com/artist/5HAtRoEPUvGSA7ziTGB1cF",
-		end: "02:00",
-		price: 8,
-		description:
-			"The Orb are an electronic music group founded in 1988 by Alex Paterson and Jimmy Cauty. Known for their psychedelic sound, the Orb developed a cult following among clubbers coming down from drug-induced highs.",
-		id: "60",
-		genre: "Electronic",
-		start: "23:00",
-		bandName: "The Orb",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5ebe4b8ef2d10356cb5c89da40d",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f178e4b8ef2d10356cb5c89da40d",
-	},
-	{
-		date: "20-03-2022",
-		venue_id: 28,
-		spotify: "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ",
-		end: "01:30",
-		price: 27,
-		description:
-			"Abel Makkonen Tesfaye, known professionally as the Weeknd, is a Canadian singer-songwriter and record producer. Known for his sonic versatility and dark lyricism, Tesfaye's music explores escapism, romance, and melancholia, and is often inspired by personal experiences.",
-		id: "61",
-		genre: "Hip Hop",
-		start: "23:15",
-		bandName: "The Weeknd",
-		big_url:
-			"https://i.scdn.co/image/ab6761610000e5eb2f71b65ef483ed75a8b40437",
-		small_url:
-			"https://i.scdn.co/image/ab6761610000f1782f71b65ef483ed75a8b40437",
-	},
-=======
- 
+  {
+    date: "19-03-2022",
+    venue_id: 30,
+    spotify: "https://open.spotify.com/artist/6M6XXCcO5gI68XpIlrUL3Z",
+    end: "22:00",
+    description:
+      "Young T & Bugsey are a British hip hop duo from Nottingham, consisting of rappers Ra'chard Young T Tucker and Doyin Bugsey Julius.",
+    id: "63",
+    price: 15,
+    genre: "Hip Hop",
+    bandName: "Young T & Bugsey",
+    start: "20:15",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb2c0fea4283facd1e10561a99",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1782c0fea4283facd1e10561a99",
+  },
+  {
+    date: "25-03-2022",
+    venue_id: 1,
+    spotify: "https://open.spotify.com/artist/0W2ZH8knJiOzH0ZwXnsgox",
+    end: "22:30",
+    price: 30,
+    description:
+      "The Four Owls, or simply The Owls is a British hip hop group formed in 2011. The group is signed to English label High Focus Records and is composed entirely of previously established High Focus members under bird-themed aliases: Fliptrix, Verb T, BVA, and Leaf Dog.",
+    id: "64",
+    genre: "Hip Hop",
+    start: "20:15",
+    bandName: "The Four Owls",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebd01c90f290c5961e9cf9e7a3",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178d01c90f290c5961e9cf9e7a3",
+  },
+  {
+    date: "18-03-2022",
+    venue_id: 4,
+    spotify: "https://open.spotify.com/artist/1N2FgBLehaq77UEdJhCt7f",
+    end: "01:00",
+    price: 10.5,
+    description:
+      "Saint Etienne are an English band from London, formed in 1990. The band consists of Sarah Cracknell, Bob Stanley and Pete Wiggs. They became associated with the UK's indie dance scene in the 1990s, beginning with the release of their debut album Foxbase Alpha in 1991.",
+    id: "36",
+    genre: "Electronic",
+    start: "21:00",
+    bandName: "Saint Etienne",
+    big_url: "https://i.scdn.co/image/ab6772690000dd22278e26189e2bf51e2d48a63e",
+    small_url:
+      "https://i.scdn.co/image/ab6772690000bac3278e26189e2bf51e2d48a63e",
+  },
+  {
+    date: "20-03-2022",
+    venue_id: 16,
+    spotify: "https://open.spotify.com/artist/1Dvfqq39HxvCJ3GvfeIFuT",
+    end: "23:45",
+    price: 23,
+    description:
+      "Mastodon is an American heavy metal band from Atlanta, Georgia, formed in 2000. The group is composed of Troy Sanders, Brent Hinds, Bill Kelliher, and Brann Dailor. Mastodon has released eight studio albums, as well as a number of other releases.",
+    id: "49",
+    genre: "Rock",
+    start: "21:30",
+    bandName: "Mastodon",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebf84fe9e6fbb2aa001d6cbbd9",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178f84fe9e6fbb2aa001d6cbbd9",
+  },
+  {
+    date: "18-03-2022",
+    venue_id: 1,
+    spotify: "https://open.spotify.com/artist/2jYMYP2SVifgmzNRQJx3SJ",
+    end: "21:00",
+    price: 28,
+    description:
+      "Modeselektor is a German electronic music duo consisting of Gernot Bronsert and Sebastian Szary.",
+    id: "33",
+    genre: "Electronic",
+    start: "18:30",
+    bandName: "Modeselektor",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebdbf9a15ccc6d609c6491243b",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178dbf9a15ccc6d609c6491243b",
+  },
+  {
+    date: "11-03-2022",
+    venue_id: 15,
+    spotify: "https://open.spotify.com/artist/1h6Cn3P4NGzXbaXidqURXs",
+    end: "20:00",
+    price: 20,
+    description:
+      "Swedish House Mafia is a Swedish house music supergroup consisting of Axwell, Steve Angello and Sebastian Ingrosso.",
+    id: "22",
+    genre: "Electronic",
+    start: "22:30",
+    bandName: "Swedish House Mafia",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb0c05adcae61ac479afe35c8e",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1780c05adcae61ac479afe35c8e",
+  },
+  {
+    date: "12-03-2022",
+    venue_id: 19,
+    spotify: "https://open.spotify.com/artist/4wLIbcoqmqI4WZHDiBxeCB",
+    end: "20:45",
+    description:
+      "Sleater-Kinney is an American rock band that formed in Olympia, Washington, in 1994. The band's current lineup features Corin Tucker and Carrie Brownstein, following the departure of longtime member Janet Weiss in 2019.",
+    id: "18",
+    price: 24.99,
+    genre: "Rock",
+    bandName: "Sleater-Kinney",
+    start: "18:45",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebdceba92082d35e25f712751b",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178dceba92082d35e25f712751b",
+  },
+  {
+    date: "18-03-2022",
+    venue_id: 17,
+    spotify: "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn",
+    end: "23:45",
+    price: 23,
+    description:
+      "King Gizzard & the Lizard Wizard are an Australian rock band formed in 2010 in Melbourne, Victoria. The band consists of Stu Mackenzie, Ambrose Kenny-Smith, Cook Craig, Joey Walker, Lucas Harwood, and Michael Cavanagh.",
+    id: "50",
+    genre: "Rock",
+    start: "21:30",
+    bandName: "King Gizzard & the Lizard Wizard",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebae21e90221e814c50033133a",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178ae21e90221e814c50033133a",
+  },
+  {
+    date: "12-03-2022",
+    venue_id: 21,
+    spotify: "https://open.spotify.com/artist/1yAwtBaoHLEDWAnWR87hBT",
+    end: "21:45",
+    price: 15,
+    description:
+      "Modest Mouse is an American rock band formed in 1992 in Issaquah, Washington, and currently based in Portland, Oregon. The founding members are lead singer/guitarist Isaac Brock, drummer Jeremiah Green, and bassist Eric Judy.",
+    id: "16",
+    genre: "Rock",
+    start: "19:00",
+    bandName: "Modest Mouse",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb3ff03c042ca55bcc7e7f490e",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1783ff03c042ca55bcc7e7f490e",
+  },
+  {
+    date: "19-03-2022",
+    venue_id: 8,
+    spotify: "https://open.spotify.com/artist/2zW15LxDEcrbOkLUgvyp8i",
+    end: "22:30",
+    price: 9,
+    description:
+      "Verb T has released 10 albums and six EPs as well as numerous singles. His first release was the 12-track EP Backhand Slap Talk / Technical Illness which was a shared release featuring songs from fellow London-based rapper Kashmere. It was released on Low Life Records.",
+    id: "40",
+    genre: "Hip Hop",
+    start: "19:30",
+    bandName: "Verb T",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb26acc52215246ddbd22d779e",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f17826acc52215246ddbd22d779e",
+  },
+  {
+    date: "12-03-2022",
+    venue_id: 3,
+    spotify: "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5",
+    end: "23:30",
+    description:
+      "The Red Hot Chili Peppers are an American rock band formed in Los Angeles in 1983. Their music incorporates elements of alternative rock, funk, punk rock and psychedelic rock. The band consists of co-founders Anthony Kiedis (lead vocals) and Flea (bass), as well as drummer Chad Smith, and guitarist John Frusciante. With over 100 million records sold worldwide, the Red Hot Chili Peppers are one of the best-selling bands of all time.",
+    id: "2",
+    price: 55,
+    genre: "Rock",
+    bandName: "Red Hot Chili Peppers",
+    start: "22:00",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebb0dd96d5c6fcd8b068834373",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178b0dd96d5c6fcd8b068834373",
+  },
+  {
+    date: "13-03-2022",
+    venue_id: 23,
+    spotify: "https://open.spotify.com/artist/4MzJMcHQBl9SIYSjwWn8QW",
+    end: "21:45",
+    price: 18,
+    description:
+      "Spiritbox is a Canadian heavy metal band from Victoria, British Columbia. Husband and wife duo guitarist Mike Stringer and vocalist Courtney LaPlante established Spiritbox in 2017. The band's full lineup comprises LaPlante and Stringer, bassist Bill Crook, and drummer Zev Rose.",
+    id: "13",
+    genre: "Metal",
+    start: "19:00",
+    bandName: "Spiritbox",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb4dff6ff0678153d025aca99c",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1784dff6ff0678153d025aca99c",
+  },
+  {
+    date: "18-03-2022",
+    venue_id: 21,
+    spotify: "https://open.spotify.com/artist/5WSlKTn8XCAH31eAVaJ4Wj",
+    end: "00:00",
+    price: 30,
+    description:
+      "Dogleg was an American post-hardcore band formed in Detroit, Michigan in 2015. They released their debut album, Melee in 2020 to critical acclaim. The band is fronted by Alex Stoitsiadis as lead vocalist and rhythm guitarist, with Chase Macinski on bass, Parker Grissom on guitar, and Jacob Hanlon on drums.",
+    id: "54",
+    genre: "Punk",
+    start: "22:30",
+    bandName: "Dogleg",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebff96afe754f57e84dd13b7f4",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178ff96afe754f57e84dd13b7f4",
+  },
+  {
+    date: "25-03-2022",
+    venue_id: 23,
+    spotify: "https://open.spotify.com/artist/73A3bLnfnz5BoQjb4gNCga",
+    end: "00:00",
+    price: 25,
+    description:
+      "Bicep are an electronic music production and DJ duo from Belfast, Northern Ireland, consisting of Andrew Ferguson and Matthew McBriar.",
+    id: "79",
+    genre: "Electronic",
+    start: "20:00",
+    bandName: "Bicep",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb12052b6d44804a4d7eae5530",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f17812052b6d44804a4d7eae5530",
+  },
+  {
+    date: "11-03-2022",
+    venue_id: 29,
+    spotify: "https://open.spotify.com/artist/4kSGbjWGxTchKpIxXPJv0B",
+    end: "23:30",
+    price: 35,
+    description:
+      "Crumb is an American psychedelic rock band. The group is a collaboration of Brooklyn-based musicians Lila Ramani, Jesse Brotter, Bri Aronow, and Jonathan Gilad, who met while attending Tufts University.",
+    id: "8",
+    genre: "Rock",
+    start: "21:00",
+    bandName: "Crumb",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebc769a31c11e0977b87d812e9",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178c769a31c11e0977b87d812e9",
+  },
+  {
+    date: "26-03-2022",
+    venue_id: 3,
+    spotify: "https://open.spotify.com/artist/3LmkRGuUav9Un8TDMjwKSg",
+    end: "23:30",
+    price: 10,
+    description:
+      "Skengdo & AM, whose real names are Terrell Doyley and Joshua Malinga, respectively, are a British drill duo from Brixton, London. They are both members of the UK drill group and alleged gang, 410. The group is known to have conflict with neighbouring Harlem Spartans, based in Kennington.",
+    id: "66",
+    genre: "Hip Hop",
+    start: "21:30",
+    bandName: "Skengdo & AM",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb5ff34afbdbcfbd46b0f74252",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1785ff34afbdbcfbd46b0f74252",
+  },
+  {
+    date: "18-03-2022",
+    venue_id: 16,
+    spotify: "https://open.spotify.com/artist/16eRpMNXSQ15wuJoeqguaB",
+    end: "23:45",
+    price: 20,
+    description:
+      "The Flaming Lips are an American psychedelic rock band formed in 1983 in Oklahoma City, Oklahoma. The band currently consists of Wayne Coyne, Steven Drozd, Derek Brown, Matt Duckworth Kirksey and Nicholas Ley. The group recorded several albums and EPs on an indie label, Restless, in the 1980s and early 1990s.",
+    id: "48",
+    genre: "Rock",
+    start: "21:30",
+    bandName: "The Flaming Lips",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebbaf865cbf7ef15f97d6ef1fe",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178baf865cbf7ef15f97d6ef1fe",
+  },
+  {
+    date: "13-03-2022",
+    venue_id: 28,
+    spotify: "https://open.spotify.com/artist/7Hvq85OU8T7Hsd63zNBwaL",
+    end: "23:45",
+    price: 45,
+    description:
+      "Black Midi are an English rock band from London, formed in 2017. The band currently consists of Geordie Greep, Cameron Picton and Morgan Simpson. Seth Evans and Kaidi Akinnibi have been frequent collaborators in both studio and live performances since 2020.",
+    id: "9",
+    genre: "Rock",
+    start: "21:15",
+    bandName: "Black Midi",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb069ff978752054a7e015daab",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178069ff978752054a7e015daab",
+  },
+  {
+    date: "20-03-2022",
+    venue_id: 26,
+    spotify: "https://open.spotify.com/artist/6VsiDFMZJlJ053P1uO4A6h",
+    end: "01:00",
+    description:
+      "Public Service Broadcasting are a London-based musical group consisting of: J. Willgoose, Esq. on guitar, banjo, other stringed instruments, samplings and electronic musical instruments; Wrigglesworth on drums, piano and electronic musical instruments; and J F Abraham on flugelhorn, bass guitar, drums and assorted other instruments including a vibraslap.",
+    id: "59",
+    price: 8,
+    genre: "Electronic",
+    bandName: "Public Service Broadcasting",
+    start: "23:00",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebcaf51b945f5199500d58d114",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178caf51b945f5199500d58d114",
+  },
+  {
+    date: "13-03-2022",
+    venue_id: 2,
+    spotify: "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi",
+    end: "23:00",
+    description:
+      "Daft Punk are a French electronic music duo formed in 1993 in Paris by Guy-Manuel de Homem-Christo and Thomas Bangalter. Widely regarded as one of the greatest and most influential acts in dance music history, they achieved popularity in the late 1990s as part of the French house movement. They garnered critical acclaim and commercial success in the years following, combining elements of house music with funk, techno, disco, indie rock and pop.",
+    id: "1",
+    price: 15,
+    genre: "Electronic",
+    bandName: "Daft Punk",
+    start: "21:00",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb96d66c60658005885d1135ce",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f17896d66c60658005885d1135ce",
+  },
+  {
+    date: "11-03-2022",
+    venue_id: 6,
+    spotify: "https://open.spotify.com/artist/240wlM8vDrf6S4zCyzGj2W",
+    end: "23:55",
+    price: 28,
+    description:
+      "CamelPhat are an English DJ and production duo, consisting of Dave Whelan and Mike Di Scala, formed in Liverpool in 2004. They are best known for the 2017 single Cola, which peaked at number 3 in the UK Dance Chart, and at number 18 in the UK Singles Chart.",
+    id: "31",
+    genre: "Electronic",
+    start: "21:30",
+    bandName: "CamelPhat",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb93a3ec5e8addcbfe818ab825",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f17893a3ec5e8addcbfe818ab825",
+  },
+  {
+    date: "27-03-2022",
+    venue_id: 20,
+    spotify: "https://open.spotify.com/artist/6sFIWsNpZYqfjUpaCgueju",
+    end: "00:00",
+    price: 25,
+    description:
+      "Carly Rae Jepsen is a Canadian singer, songwriter, and actress. Born and raised in Mission, British Columbia, Jepsen pursued a musical theatre program at the Canadian College of Performing Arts in Victoria, British Columbia.",
+    id: "80",
+    genre: "Pop",
+    start: "23:00",
+    bandName: "Carly Rae Jepsen",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb71fed7c1f401da1662f209cb",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f17871fed7c1f401da1662f209cb",
+  },
+  {
+    date: "11-03-2022",
+    venue_id: 1,
+    spotify: "https://open.spotify.com/artist/34EP7KEpOjXcM2TCat1ISk",
+    end: "18:00",
+    description:
+      "Wu-Tang Clan is an American hip hop group formed in Staten Island, New York City, in 1992. Its original members include RZA, GZA, Ol' Dirty Bastard, Method Man, Raekwon, Ghostface Killah, Inspectah Deck, U-God, and Masta Killa. Close affiliate Cappadonna later became an official member. Wu-Tang Clan are regarded as a highly influential group in hip hop, helping to popularize and develop the East Coast hip hop and hardcore hip hop styles.",
+    id: "6",
+    price: 29.99,
+    genre: "Hip Hop",
+    bandName: "Wu Tang Clan",
+    start: "15:15",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebe60866298962b71792b2bf1a",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178e60866298962b71792b2bf1a",
+  },
+  {
+    date: "19-03-2022",
+    venue_id: 29,
+    spotify: "https://open.spotify.com/artist/5VadK1havLhK1OpKYsXv9y",
+    end: "22:45",
+    price: 13,
+    description:
+      "D-Block Europe, often abbreviated to DBE, is a British hip hop collective consisting of Adam Nathaniel Young Adz Williams, Ricky Earl Dirtbike LB Banton and Lil Pino from Lewisham, London. Their name is a reference to The Lox. They started to put out tracks on their own label in the beginning of 2014.",
+    id: "62",
+    genre: "Hip Hop",
+    start: "21:15",
+    bandName: "D-Block Europe",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb80c0419d9cbf4adaad221709",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f17880c0419d9cbf4adaad221709",
+  },
+  {
+    date: "25-03-2022",
+    venue_id: 28,
+    spotify: "https://open.spotify.com/artist/0HlxL5hisLf59ETEPM3cUA",
+    end: "01:40",
+    price: 23,
+    description:
+      "Scooter is a German happy hardcore, rave and techno music band founded in Hamburg in 1993. To date, the band has sold over 30 million records and earned over 80 Gold and Platinum awards. Scooter is considered the most commercially successful German single-record act with 23 top ten hits.",
+    id: "75",
+    genre: "Electronic",
+    start: "23:40",
+    bandName: "Scooter",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb1c4c2e0aeb040b12215dfc8a",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1781c4c2e0aeb040b12215dfc8a",
+  },
+  {
+    date: "26-03-2022",
+    venue_id: 26,
+    spotify: "https://open.spotify.com/artist/54QMjE4toDfiCryzYWCpXX",
+    end: "01:40",
+    price: 25,
+    description:
+      "Metronomy are an English electronic music group formed in 1999. As of 2021, the band consists of Joseph Mount, Oscar Cash, Anna Prior, Olugbenga Adelekan and Michael Lovett. Their music consists of vocal and instrumental electronic pop music.",
+    id: "76",
+    genre: "Electronic",
+    start: "23:40",
+    bandName: "Metronomy",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb86dd27699ca06ca87a355c62",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f17886dd27699ca06ca87a355c62",
+  },
+  {
+    date: "27-03-2022",
+    venue_id: 10,
+    spotify: "https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3",
+    end: "21:30",
+    price: 53,
+    description:
+      "Harry Edward Styles is an English singer, songwriter and actor. His musical career began in 2010 as a solo contestant on the British music competition series The X Factor.",
+    id: "84",
+    genre: "Pop",
+    start: "19:00",
+    bandName: "Harry Styles",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebd9f70439ec8893ef495e1b7e",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178d9f70439ec8893ef495e1b7e",
+  },
+  {
+    date: "19-03-2022",
+    venue_id: 27,
+    spotify: "https://open.spotify.com/artist/5HAtRoEPUvGSA7ziTGB1cF",
+    end: "02:00",
+    price: 8,
+    description:
+      "The Orb are an electronic music group founded in 1988 by Alex Paterson and Jimmy Cauty. Known for their psychedelic sound, the Orb developed a cult following among clubbers coming down from drug-induced highs.",
+    id: "60",
+    genre: "Electronic",
+    start: "23:00",
+    bandName: "The Orb",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebe4b8ef2d10356cb5c89da40d",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178e4b8ef2d10356cb5c89da40d",
+  },
+  {
+    date: "20-03-2022",
+    venue_id: 28,
+    spotify: "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ",
+    end: "01:30",
+    price: 27,
+    description:
+      "Abel Makkonen Tesfaye, known professionally as the Weeknd, is a Canadian singer-songwriter and record producer. Known for his sonic versatility and dark lyricism, Tesfaye's music explores escapism, romance, and melancholia, and is often inspired by personal experiences.",
+    id: "61",
+    genre: "Hip Hop",
+    start: "23:15",
+    bandName: "The Weeknd",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb2f71b65ef483ed75a8b40437",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1782f71b65ef483ed75a8b40437",
+  },
 
   // stopping point
   {
@@ -890,8 +858,9 @@ exports.gigData = [
     genre: "Electronic",
     bandName: "Nightmares on Wax",
     start: "23:00",
-	big_url: "https://i.scdn.co/image/ab67616100005174f55522db17a6034ca9a895cf",
-	small_url: "https://i.scdn.co/image/ab6761610000f178f55522db17a6034ca9a895cf"
+    big_url: "https://i.scdn.co/image/ab67616100005174f55522db17a6034ca9a895cf",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178f55522db17a6034ca9a895cf",
   },
   {
     date: "19-03-2022",
@@ -905,8 +874,9 @@ exports.gigData = [
     genre: "Rock",
     start: "20:30",
     bandName: "Foxing",
-	big_url:  "https://i.scdn.co/image/ab6761610000e5eb0610a2e881c33f18218ee3fd",
-	small_url: "https://i.scdn.co/image/ab6761610000f1780610a2e881c33f18218ee3fd"
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb0610a2e881c33f18218ee3fd",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1780610a2e881c33f18218ee3fd",
   },
   {
     date: "13-03-2022",
@@ -920,8 +890,9 @@ exports.gigData = [
     genre: "Rock",
     bandName: "Another Michael",
     start: "22:45",
-	big_url: "https://i.scdn.co/image/ab6761610000e5eb411f99f7ce3115bf5fae66ce",
-	small_url: "https://i.scdn.co/image/ab6761610000f178411f99f7ce3115bf5fae66ce"
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb411f99f7ce3115bf5fae66ce",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178411f99f7ce3115bf5fae66ce",
   },
   {
     date: "11-03-2022",
@@ -935,8 +906,9 @@ exports.gigData = [
     genre: "Electronic",
     start: "20:00",
     bandName: "Gorgon City",
-	big_url: "https://i.scdn.co/image/ab6761610000e5eb91470284b60c9b94903a5536",
-	small_url: "https://i.scdn.co/image/ab6761610000f17891470284b60c9b94903a5536"
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb91470284b60c9b94903a5536",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f17891470284b60c9b94903a5536",
   },
 
   // stopping point
@@ -952,6 +924,9 @@ exports.gigData = [
     genre: "Rock",
     start: "22:30",
     bandName: "Khruangbin",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb6ce2dd99e642c87dfc9c019c",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1786ce2dd99e642c87dfc9c019c",
   },
   {
     date: "12-03-2022",
@@ -965,6 +940,9 @@ exports.gigData = [
     genre: "Pop",
     start: "22:00",
     bandName: "Meet Me at the Altar",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebcbd7a8820a8e2bfb816abda3",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178cbd7a8820a8e2bfb816abda3",
   },
   {
     date: "20-03-2022",
@@ -978,6 +956,9 @@ exports.gigData = [
     genre: "Rock",
     start: "22:45",
     bandName: "The Spirit of the Beehive",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebf4b72aca9faba7e5d5560c3c",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178f4b72aca9faba7e5d5560c3c",
   },
   {
     date: "12-03-2022",
@@ -991,6 +972,9 @@ exports.gigData = [
     genre: "Rock",
     start: "20:00",
     bandName: "The Snuts",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb2c3ee5c6bd402958cb1ea794",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1782c3ee5c6bd402958cb1ea794",
   },
   {
     date: "12-03-2022",
@@ -1004,6 +988,9 @@ exports.gigData = [
     genre: "Metal",
     bandName: "Metalica",
     start: "18:00",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb8101d13bdd630b0889acd2fd",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1788101d13bdd630b0889acd2fd",
   },
   {
     date: "25-03-2022",
@@ -1017,6 +1004,9 @@ exports.gigData = [
     genre: "Pop",
     bandName: "Lastlings",
     start: "21:00",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebe2be388d28199f49ae84bf2d",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178e2be388d28199f49ae84bf2d",
   },
   {
     date: "25-03-2022",
@@ -1030,6 +1020,9 @@ exports.gigData = [
     genre: "Pop",
     start: "19:00",
     bandName: "Diana Ross",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebdb59e1c017a93648b119f0cc",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178db59e1c017a93648b119f0cc",
   },
   {
     date: "25-03-2022",
@@ -1043,6 +1036,9 @@ exports.gigData = [
     genre: "Hip Hop",
     start: "21:00",
     bandName: "Nines",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebcab7a4335a73180f71d386a3",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178cab7a4335a73180f71d386a3",
   },
   {
     date: "11-03-2022",
@@ -1056,6 +1052,9 @@ exports.gigData = [
     genre: "Rock",
     bandName: "Pillow Queens",
     start: "21:45",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb8db85f95e177d32ad63a25e3",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1788db85f95e177d32ad63a25e3",
   },
   {
     date: "18-03-2022",
@@ -1069,6 +1068,9 @@ exports.gigData = [
     genre: "Electronic",
     start: "22:30",
     bandName: "DJ Food",
+    big_url: "https://i.scdn.co/image/ab67616d0000b273e35ac3793774b4686e8cf229",
+    small_url:
+      "https://i.scdn.co/image/ab67616d00004851e35ac3793774b4686e8cf229",
   },
   {
     date: "18-03-2022",
@@ -1082,6 +1084,9 @@ exports.gigData = [
     genre: "Rock",
     start: "20:00",
     bandName: "Black Country, New Road",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebaebcf58177b9739feadb00b9",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178aebcf58177b9739feadb00b9",
   },
   {
     date: "25-03-2022",
@@ -1095,6 +1100,9 @@ exports.gigData = [
     genre: "Electronic",
     start: "19:40",
     bandName: "Axwell",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb9f6e5d736809c4cb40d59a7e",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1789f6e5d736809c4cb40d59a7e",
   },
   {
     date: "19-03-2022",
@@ -1108,6 +1116,9 @@ exports.gigData = [
     genre: "Electronic",
     start: "21:00",
     bandName: "Plaid",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb1f1d58a39bf3a3bf85e59afb",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1781f1d58a39bf3a3bf85e59afb",
   },
   {
     date: "11-03-2022",
@@ -1121,6 +1132,9 @@ exports.gigData = [
     genre: "Pop",
     start: "21:00",
     bandName: "Austra",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebf4d20a45d5d010de3a342f43",
+    small_url:
+      "https://i.scdn.co/image/ab67616100005174f4d20a45d5d010de3a342f43",
   },
   {
     date: "12-03-2022",
@@ -1134,6 +1148,9 @@ exports.gigData = [
     genre: "Electronic",
     bandName: "David Guetta",
     start: "21:45",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb75348e1aade2645ad9c58829",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f17875348e1aade2645ad9c58829",
   },
   {
     date: "13-03-2022",
@@ -1147,6 +1164,9 @@ exports.gigData = [
     genre: "Electronic",
     start: "19:00",
     bandName: "Adventure Club",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb40baef401cb7f5c6511771bc",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f17840baef401cb7f5c6511771bc",
   },
   {
     date: "11-03-2022",
@@ -1160,6 +1180,9 @@ exports.gigData = [
     genre: "Rock",
     start: "19:00",
     bandName: "Architects",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb5f56ea61ee19c912f730f195",
+    small_url:
+      "https://i.scdn.co/image/ab676161000051745f56ea61ee19c912f730f195",
   },
   {
     date: "11-03-2022",
@@ -1173,6 +1196,9 @@ exports.gigData = [
     genre: "Rock",
     start: "21:45",
     bandName: "Lynyrd Skynyrd",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb451eb07ddc6e68d3e474c2bf",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178451eb07ddc6e68d3e474c2bf",
   },
   {
     date: "25-03-2022",
@@ -1186,6 +1212,9 @@ exports.gigData = [
     genre: "Hip Hop",
     start: "21:30",
     bandName: "Krept & Konan",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebdb815ba245023e09229ab9d9",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178db815ba245023e09229ab9d9",
   },
   {
     date: "11-03-2022",
@@ -1199,6 +1228,9 @@ exports.gigData = [
     genre: "Indie",
     start: "20:15",
     bandName: "Pom Pom Squad",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb5ad1f9aa018bbb943f652c23",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1785ad1f9aa018bbb943f652c23",
   },
   {
     date: "18-03-2022",
@@ -1212,6 +1244,9 @@ exports.gigData = [
     genre: "Rock",
     start: "23:00",
     bandName: "Psychedelic Porn Crumpets",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb603deddc4488c0f4d1cd8b1d",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178603deddc4488c0f4d1cd8b1d",
   },
   {
     date: "19-03-2022",
@@ -1225,6 +1260,9 @@ exports.gigData = [
     genre: "Rock",
     start: "20:30",
     bandName: "Royal Blood",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebda6b25bf6b414bb799e95d42",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178da6b25bf6b414bb799e95d42",
   },
   {
     date: "11-03-2022",
@@ -1238,6 +1276,9 @@ exports.gigData = [
     genre: "Rock",
     start: "21:00",
     bandName: "Chai",
+    big_url: "https://i.scdn.co/image/ab6761610000e5ebc43d5a3a8c6b15dd82d36fdb",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178c43d5a3a8c6b15dd82d36fdb",
   },
   {
     date: "18-03-2022",
@@ -1251,6 +1292,9 @@ exports.gigData = [
     genre: "Punk",
     start: "22:00",
     bandName: "Turnstile",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb634d95df40053f9e6d9506d8",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178634d95df40053f9e6d9506d8",
   },
   {
     date: "19-03-2022",
@@ -1264,6 +1308,9 @@ exports.gigData = [
     genre: "Rock",
     start: "20:00",
     bandName: "Wolf Alice",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb11139090b743f246f2bc2014",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f17811139090b743f246f2bc2014",
   },
   {
     date: "12-03-2022",
@@ -1277,6 +1324,9 @@ exports.gigData = [
     genre: "Rock",
     start: "20:00",
     bandName: "Foo Fighters",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb9a43b87b50cd3d03544bb3e5",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1789a43b87b50cd3d03544bb3e5",
   },
   {
     date: "26-03-2022",
@@ -1290,6 +1340,9 @@ exports.gigData = [
     genre: "Pop",
     start: "19:00",
     bandName: "James Blake",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb568ef832399d06317da80a85",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f178568ef832399d06317da80a85",
   },
   {
     date: "27-03-2022",
@@ -1303,5 +1356,8 @@ exports.gigData = [
     genre: "Electronic",
     start: "19:40",
     bandName: "Nero",
+    big_url: "https://i.scdn.co/image/ab6761610000e5eb2ab90dd305592df399ac066a",
+    small_url:
+      "https://i.scdn.co/image/ab6761610000f1782ab90dd305592df399ac066a",
   },
 ];
