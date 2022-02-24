@@ -11,6 +11,8 @@ exports.gigData = [
 		genre: "Hip Hop",
 		bandName: "Young T & Bugsey",
 		start: "20:15",
+		big_url: "",
+		small_url: "",
 	},
 	{
 		date: "25-03-2022",
@@ -376,6 +378,8 @@ exports.gigData = [
 		start: "23:15",
 		bandName: "The Weeknd",
 	},
+
+	// stopping point
 	{
 		date: "20-03-2022",
 		venue_id: 6,
@@ -740,6 +744,8 @@ exports.gigData = [
 		start: "20:00",
 		bandName: "Gorgon City",
 	},
+
+	// stopping point
 	{
 		date: "19-03-2022",
 		venue_id: 22,
