@@ -11,8 +11,10 @@ exports.gigData = [
 		genre: "Hip Hop",
 		bandName: "Young T & Bugsey",
 		start: "20:15",
-		big_url: "",
-		small_url: "",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb2c0fea4283facd1e10561a99",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f1782c0fea4283facd1e10561a99",
 	},
 	{
 		date: "25-03-2022",
@@ -26,6 +28,10 @@ exports.gigData = [
 		genre: "Hip Hop",
 		start: "20:15",
 		bandName: "The Four Owls",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebd01c90f290c5961e9cf9e7a3",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178d01c90f290c5961e9cf9e7a3",
 	},
 	{
 		date: "18-03-2022",
@@ -39,6 +45,10 @@ exports.gigData = [
 		genre: "Electronic",
 		start: "21:00",
 		bandName: "Saint Etienne",
+		big_url:
+			"https://i.scdn.co/image/ab6772690000dd22278e26189e2bf51e2d48a63e",
+		small_url:
+			"https://i.scdn.co/image/ab6772690000bac3278e26189e2bf51e2d48a63e",
 	},
 	{
 		date: "20-03-2022",
@@ -52,6 +62,10 @@ exports.gigData = [
 		genre: "Rock",
 		start: "21:30",
 		bandName: "Mastodon",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebf84fe9e6fbb2aa001d6cbbd9",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178f84fe9e6fbb2aa001d6cbbd9",
 	},
 	{
 		date: "18-03-2022",
@@ -65,6 +79,10 @@ exports.gigData = [
 		genre: "Electronic",
 		start: "18:30",
 		bandName: "Modeselektor",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebdbf9a15ccc6d609c6491243b",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178dbf9a15ccc6d609c6491243b",
 	},
 	{
 		date: "11-03-2022",
@@ -78,6 +96,10 @@ exports.gigData = [
 		genre: "Electronic",
 		start: "22:30",
 		bandName: "Swedish House Mafia",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb0c05adcae61ac479afe35c8e",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f1780c05adcae61ac479afe35c8e",
 	},
 	{
 		date: "12-03-2022",
@@ -91,6 +113,10 @@ exports.gigData = [
 		genre: "Rock",
 		bandName: "Sleater-Kinney",
 		start: "18:45",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebdceba92082d35e25f712751b",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178dceba92082d35e25f712751b",
 	},
 	{
 		date: "18-03-2022",
@@ -104,6 +130,10 @@ exports.gigData = [
 		genre: "Rock",
 		start: "21:30",
 		bandName: "King Gizzard & the Lizard Wizard",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebae21e90221e814c50033133a",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178ae21e90221e814c50033133a",
 	},
 	{
 		date: "12-03-2022",
@@ -117,19 +147,27 @@ exports.gigData = [
 		genre: "Rock",
 		start: "19:00",
 		bandName: "Modest Mouse",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb3ff03c042ca55bcc7e7f490e",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f1783ff03c042ca55bcc7e7f490e",
 	},
 	{
 		date: "19-03-2022",
 		venue_id: 8,
-		spotify: "https://open.spotify.com/album/09du8TXw7b4n3qPUEhJ2tS",
+		spotify: "https://open.spotify.com/artist/2zW15LxDEcrbOkLUgvyp8i",
 		end: "22:30",
 		price: 9,
 		description:
-			"The Grid are an English electronic dance group, consisting of David Ball and Richard Norris, with guest contributions from other musicians. They are best known for the hits Swamp Thing, Texas Cowboys, Crystal Clear, Rollercoaster and Floatation.",
+			"Verb T has released 10 albums and six EPs as well as numerous singles. His first release was the 12-track EP Backhand Slap Talk / Technical Illness which was a shared release featuring songs from fellow London-based rapper Kashmere. It was released on Low Life Records.",
 		id: "40",
-		genre: "Electronic",
+		genre: "Hip Hop",
 		start: "19:30",
-		bandName: "The Grid",
+		bandName: "Verb T",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb26acc52215246ddbd22d779e",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f17826acc52215246ddbd22d779e",
 	},
 	{
 		date: "12-03-2022",
@@ -143,6 +181,10 @@ exports.gigData = [
 		genre: "Rock",
 		bandName: "Red Hot Chili Peppers",
 		start: "22:00",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebb0dd96d5c6fcd8b068834373",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178b0dd96d5c6fcd8b068834373",
 	},
 	{
 		date: "13-03-2022",
@@ -156,6 +198,10 @@ exports.gigData = [
 		genre: "Metal",
 		start: "19:00",
 		bandName: "Spiritbox",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb4dff6ff0678153d025aca99c",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f1784dff6ff0678153d025aca99c",
 	},
 	{
 		date: "18-03-2022",
@@ -169,6 +215,10 @@ exports.gigData = [
 		genre: "Punk",
 		start: "22:30",
 		bandName: "Dogleg",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebff96afe754f57e84dd13b7f4",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178ff96afe754f57e84dd13b7f4",
 	},
 	{
 		date: "25-03-2022",
@@ -182,6 +232,10 @@ exports.gigData = [
 		genre: "Electronic",
 		start: "20:00",
 		bandName: "Bicep",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb12052b6d44804a4d7eae5530",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f17812052b6d44804a4d7eae5530",
 	},
 	{
 		date: "11-03-2022",
@@ -195,6 +249,10 @@ exports.gigData = [
 		genre: "Rock",
 		start: "21:00",
 		bandName: "Crumb",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebc769a31c11e0977b87d812e9",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178c769a31c11e0977b87d812e9",
 	},
 	{
 		date: "26-03-2022",
@@ -208,6 +266,10 @@ exports.gigData = [
 		genre: "Hip Hop",
 		start: "21:30",
 		bandName: "Skengdo & AM",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb5ff34afbdbcfbd46b0f74252",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f1785ff34afbdbcfbd46b0f74252",
 	},
 	{
 		date: "18-03-2022",
@@ -221,6 +283,10 @@ exports.gigData = [
 		genre: "Rock",
 		start: "21:30",
 		bandName: "The Flaming Lips",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebbaf865cbf7ef15f97d6ef1fe",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178baf865cbf7ef15f97d6ef1fe",
 	},
 	{
 		date: "13-03-2022",
@@ -234,6 +300,10 @@ exports.gigData = [
 		genre: "Rock",
 		start: "21:15",
 		bandName: "Black Midi",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb069ff978752054a7e015daab",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178069ff978752054a7e015daab",
 	},
 	{
 		date: "20-03-2022",
@@ -247,6 +317,10 @@ exports.gigData = [
 		genre: "Electronic",
 		bandName: "Public Service Broadcasting",
 		start: "23:00",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebcaf51b945f5199500d58d114",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178caf51b945f5199500d58d114",
 	},
 	{
 		date: "13-03-2022",
@@ -260,6 +334,10 @@ exports.gigData = [
 		genre: "Electronic",
 		bandName: "Daft Punk",
 		start: "21:00",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb96d66c60658005885d1135ce",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f17896d66c60658005885d1135ce",
 	},
 	{
 		date: "11-03-2022",
@@ -273,6 +351,10 @@ exports.gigData = [
 		genre: "Electronic",
 		start: "21:30",
 		bandName: "CamelPhat",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb93a3ec5e8addcbfe818ab825",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f17893a3ec5e8addcbfe818ab825",
 	},
 	{
 		date: "27-03-2022",
@@ -286,6 +368,10 @@ exports.gigData = [
 		genre: "Pop",
 		start: "23:00",
 		bandName: "Carly Rae Jepsen",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb71fed7c1f401da1662f209cb",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f17871fed7c1f401da1662f209cb",
 	},
 	{
 		date: "11-03-2022",
@@ -299,6 +385,10 @@ exports.gigData = [
 		genre: "Hip Hop",
 		bandName: "Wu Tang Clan",
 		start: "15:15",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebe60866298962b71792b2bf1a",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178e60866298962b71792b2bf1a",
 	},
 	{
 		date: "19-03-2022",
@@ -312,6 +402,10 @@ exports.gigData = [
 		genre: "Hip Hop",
 		start: "21:15",
 		bandName: "D-Block Europe",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb80c0419d9cbf4adaad221709",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f17880c0419d9cbf4adaad221709",
 	},
 	{
 		date: "25-03-2022",
@@ -325,6 +419,10 @@ exports.gigData = [
 		genre: "Electronic",
 		start: "23:40",
 		bandName: "Scooter",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb1c4c2e0aeb040b12215dfc8a",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f1781c4c2e0aeb040b12215dfc8a",
 	},
 	{
 		date: "26-03-2022",
@@ -338,6 +436,10 @@ exports.gigData = [
 		genre: "Electronic",
 		start: "23:40",
 		bandName: "Metronomy",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb86dd27699ca06ca87a355c62",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f17886dd27699ca06ca87a355c62",
 	},
 	{
 		date: "27-03-2022",
@@ -351,6 +453,10 @@ exports.gigData = [
 		genre: "Pop",
 		start: "19:00",
 		bandName: "Harry Styles",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebd9f70439ec8893ef495e1b7e",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178d9f70439ec8893ef495e1b7e",
 	},
 	{
 		date: "19-03-2022",
@@ -364,6 +470,10 @@ exports.gigData = [
 		genre: "Electronic",
 		start: "23:00",
 		bandName: "The Orb",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5ebe4b8ef2d10356cb5c89da40d",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f178e4b8ef2d10356cb5c89da40d",
 	},
 	{
 		date: "20-03-2022",
@@ -377,6 +487,10 @@ exports.gigData = [
 		genre: "Hip Hop",
 		start: "23:15",
 		bandName: "The Weeknd",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb2f71b65ef483ed75a8b40437",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f1782f71b65ef483ed75a8b40437",
 	},
 
 	// stopping point
