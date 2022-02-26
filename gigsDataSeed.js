@@ -742,6 +742,10 @@ exports.gigData = [
 		genre: "Pop",
 		start: "20:00",
 		bandName: "Magdalena Bay",
+		big_url:
+			"https://i.scdn.co/image/ab6761610000e5eb8254400e50eb923392e764c3",
+		small_url:
+			"https://i.scdn.co/image/ab6761610000f1788254400e50eb923392e764c3",
 	},
 	{
 		date: "11-03-2022",
