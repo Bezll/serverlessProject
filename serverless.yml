@@ -18,6 +18,7 @@ provider:
               - dynamodb:*
               - sns:setSMSAttributes
               - sns:Publish
+              - ses:*
           Resource: "*"
     apiGateway:
         apiKeys:
@@ -100,6 +101,14 @@ functions:
                   method: POST
                   cors: true
                   private: true
+    sendEmail:
+        handler: lambdas/endpoints/sendEmail.handler
+        events:
+            - http:
+                  path: send-email
+                  method: POST
+                  cors: true
+                  #   private: true
     seedTable:
         handler: lambdas/endpoints/seedingTable.handler
         events:
