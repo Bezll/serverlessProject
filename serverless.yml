@@ -12,6 +12,7 @@ provider:
     environment:
         tableName: ${self:custom.tableName}
         tableName2: ${self:custom.tableName2}
+        tableName3: ${self:custom.tableName3}
     iamRoleStatements:
         - Effect: Allow
           Action:
@@ -27,6 +28,7 @@ provider:
 custom:
     tableName: gigData
     tableName2: venueData
+    tableName3: comments
 
 functions:
     getAllGigData:
@@ -61,11 +63,27 @@ functions:
                   method: GET
                   cors: true
                   private: true
+    getCommentData:
+        handler: lambdas/endpoints/getCommentData.handler
+        events:
+            - http:
+                  path: /get-comment-data/{id}
+                  method: GET
+                  cors: true
+                  private: true
     createGigData:
         handler: lambdas/endpoints/createGigData.handler
         events:
             - http:
                   path: /create-gig-data/{id}
+                  method: POST
+                  cors: true
+                  private: true
+    createComments:
+        handler: lambdas/endpoints/createComments.handler
+        events:
+            - http:
+                  path: /create-comment/{id}
                   method: POST
                   cors: true
                   private: true
@@ -93,6 +111,14 @@ functions:
                   method: GET
                   cors: true
                   private: true
+    queryComments:
+        handler: lambdas/endpoints/queryComments.handler
+        events:
+            - http:
+                  path: /query-comments/{venue_number}
+                  method: GET
+                  cors: true
+                  private: true
     sendSMS:
         handler: lambdas/endpoints/sendSMS.handler
         events:
@@ -108,15 +134,15 @@ functions:
                   path: send-email
                   method: POST
                   cors: true
-                  #   private: true
+                  private: true
     seedTable:
         handler: lambdas/endpoints/seedingTable.handler
         events:
             - http:
                   path: /seed/{tableNametype}
                   method: Get
-                  #   cors: true
-                  #   private: true
+                  # cors: true
+                  # private: true
 
 resources:
     Resources:
@@ -161,3 +187,25 @@ resources:
                     - AttributeName: id
                       KeyType: HASH
                 BillingMode: PAY_PER_REQUEST
+
+        MyDynamoDbTable3:
+            Type: AWS::DynamoDB::Table
+            Properties:
+                TableName: ${self:custom.tableName3}
+                AttributeDefinitions:
+                    - AttributeName: id
+                      AttributeType: S
+                    - AttributeName: venue_number
+                      AttributeType: S
+                KeySchema:
+                    - AttributeName: id
+                      KeyType: HASH
+                BillingMode: PAY_PER_REQUEST
+
+                GlobalSecondaryIndexes:
+                    - IndexName: venue_number-index
+                      KeySchema:
+                          - AttributeName: venue_number
+                            KeyType: HASH
+                      Projection:
+                          ProjectionType: ALL

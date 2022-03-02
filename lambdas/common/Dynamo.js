@@ -131,7 +131,6 @@ module.exports.queryGigData = async ({
 			":hkey": queryValue,
 		},
 	};
-
 	const data = await documentClient.query(params).promise();
 
 	return data.Items || [];
