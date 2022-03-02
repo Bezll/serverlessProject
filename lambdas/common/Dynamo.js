@@ -2,7 +2,7 @@ const AWS = require("aws-sdk");
 
 const documentClient = new AWS.DynamoDB.DocumentClient();
 
-module.exports.getAllGigData = async (TableName) => {
+module.exports.getAllData = async (TableName) => {
 	let ScanningParams = {
 		TableName,
 		Limit: 100,
@@ -13,12 +13,11 @@ module.exports.getAllGigData = async (TableName) => {
 	if (!data) {
 		throw Error(`There was an error fetching the data from ${TableName}`);
 	}
-	console.log(data);
 
 	return data;
 };
 
-module.exports.getGigById = async (id, TableName) => {
+module.exports.getDataById = async (id, TableName) => {
 	const params = {
 		TableName,
 		Key: {
@@ -38,43 +37,7 @@ module.exports.getGigById = async (id, TableName) => {
 	return data.Item;
 };
 
-module.exports.getAllVenueData = async (TableName) => {
-	let ScanningParams = {
-		TableName,
-		Limit: 100,
-	};
-
-	const data = await documentClient.scan(ScanningParams).promise();
-
-	if (!data) {
-		throw Error(`There was an error fetching the data from ${TableName}`);
-	}
-	console.log(data);
-
-	return data;
-};
-
-module.exports.getVenueById = async (id, TableName) => {
-	const params = {
-		TableName,
-		Key: {
-			id,
-		},
-	};
-
-	const data = await documentClient.get(params).promise();
-
-	if (!data || !data.Item) {
-		throw Error(
-			`There was an error fetching the data for id of ${id} from ${TableName}`
-		);
-	}
-	console.log(data);
-
-	return data.Item;
-};
-
-module.exports.createDynamo = async (data, TableName) => {
+module.exports.postData = async (data, TableName) => {
 	if (!data.id) {
 		throw Error(`no id on the data`);
 	}
@@ -95,7 +58,7 @@ module.exports.createDynamo = async (data, TableName) => {
 	return data;
 };
 
-module.exports.updateGigData = async ({
+module.exports.updateData = async ({
 	tableName,
 	primaryKey,
 	primaryKeyValue,
@@ -117,7 +80,7 @@ module.exports.updateGigData = async ({
 	return data;
 };
 
-module.exports.queryGigData = async ({
+module.exports.queryData = async ({
 	tableName,
 	index,
 	queryKey,
@@ -136,7 +99,7 @@ module.exports.queryGigData = async ({
 	return data.Items || [];
 };
 
-module.exports.deleteCommentById = async (id, TableName) => {
+module.exports.deleteData = async (id, TableName) => {
 	const params = {
 		TableName,
 		Key: {

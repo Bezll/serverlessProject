@@ -87,11 +87,27 @@ functions:
                   method: POST
                   cors: true
                   private: true
-    updateGigData:
-        handler: lambdas/endpoints/patchGigData.handler
+    patchGigPrice:
+        handler: lambdas/endpoints/patchGigPrice.handler
         events:
             - http:
-                  path: /patch-gig-data/{id}
+                  path: /patch-gig-price/{id}
+                  method: PUT
+                  cors: true
+                  private: true
+    patchCommentVotes:
+        handler: lambdas/endpoints/patchVotes.handler
+        events:
+            - http:
+                  path: /patch-comment-votes/{id}
+                  method: PUT
+                  cors: true
+                  private: true
+    patchCommentBody:
+        handler: lambdas/endpoints/patchCommentBody.handler
+        events:
+            - http:
+                  path: /patch-comment-body/{id}
                   method: PUT
                   cors: true
                   private: true
@@ -148,9 +164,7 @@ functions:
         events:
             - http:
                   path: /seed/{tableNametype}
-                  method: Get
-                  # cors: true
-                  # private: true
+                  method: GET
 
 resources:
     Resources:

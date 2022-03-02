@@ -1,8 +1,9 @@
 const { DynamoDB } = require("aws-sdk");
 const { sendResponse200, sendResponse400 } = require("../common/api_responses");
-const { createDynamo } = require("../common/Dynamo");
+const { postData } = require("../common/Dynamo");
 const { gigData } = require("../../gigsDataSeed");
 const { venueData } = require("../../venueDataSeed");
+
 exports.handler = async (event) => {
 	const tableAndType = event.pathParameters.tableNametype.split("-");
 	const tableName = tableAndType[0];
@@ -35,11 +36,8 @@ exports.handler = async (event) => {
 		dataToSeed = venueData;
 	}
 
-	console.log("tableName>>", tableName);
-	console.log("dataToSeed>", dataToSeed);
-
 	await dataToSeed.forEach(async (gig) => {
-		const newGig = await createDynamo(gig, tableName).catch((err) => {
+		const newGig = await postData(gig, tableName).catch((err) => {
 			console.log("error in dynamo write", err);
 			return null;
 		});

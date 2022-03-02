@@ -1,6 +1,6 @@
 const { DynamoDB } = require("aws-sdk");
 const { sendResponse200, sendResponse400 } = require("../common/api_responses");
-const { postData } = require("../common/Dynamo");
+const { updateData } = require("../common/Dynamo");
 
 const tableName3 = process.env.tableName3;
 
@@ -12,17 +12,19 @@ exports.handler = async (event) => {
 
 	let id = event.pathParameters.id;
 
-	const comment = JSON.parse(event.body);
-	comment.id = id;
+	const { votes } = JSON.parse(event.body);
 
-	const newComment = await postData(comment, tableName3).catch((err) => {
-		console.log("error in dynamo write", err);
-		return null;
+	const newVote = await updateData({
+		tableName: tableName3,
+		primaryKey: "id",
+		primaryKeyValue: id,
+		updateKey: "votes",
+		updateValue: votes,
 	});
 
-	if (!newComment) {
-		return sendResponse400({ message: "Failed to write comment by id" });
+	if (!Object.keys(newVote).length) {
+		return sendResponse400({ message: "Failed to update comment by id" });
 	}
 
-	return sendResponse200({ newComment });
+	return sendResponse200({ newVote });
 };

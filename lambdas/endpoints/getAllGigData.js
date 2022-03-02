@@ -1,20 +1,18 @@
 const { DynamoDB } = require("aws-sdk");
-const {sendResponse200, sendResponse400} = require("../common/api_responses");
-const {getAllGigData} = require("../common/Dynamo")
+const { sendResponse200, sendResponse400 } = require("../common/api_responses");
+const { getAllData } = require("../common/Dynamo");
 
-const tableName = process.env.tableName
+const tableName = process.env.tableName;
 
 exports.handler = async (event) => {
-	console.log("event", event);
+	const gig = await getAllData(tableName).catch((err) => {
+		console.log("error in Dynamo Get", err);
+		return null;
+	});
 
-    const gig = await getAllGigData(tableName).catch(err => {
-        console.log('error in Dynamo Get', err);
-        return null
-    })
+	if (!gig) {
+		return sendResponse400({ message: "Failed to get gig data" });
+	}
 
-    if (!gig) {
-        return sendResponse400({ message: "Failed to get gig data" });
-    }
-
-    return sendResponse200({ gig });
-}
+	return sendResponse200({ gig });
+};

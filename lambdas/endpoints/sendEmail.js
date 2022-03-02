@@ -4,8 +4,6 @@ const { sendResponse200, sendResponse400 } = require("../common/api_responses");
 const SES = new AWS.SES();
 
 exports.handler = async (event) => {
-	console.log("event", event);
-
 	const { to, from, subject, text } = JSON.parse(event.body);
 
 	if (!to || !from || !subject || !text) {
