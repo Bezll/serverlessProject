@@ -135,3 +135,16 @@ module.exports.queryGigData = async ({
 
 	return data.Items || [];
 };
+
+module.exports.deleteCommentById = async (id, TableName) => {
+	const params = {
+		TableName,
+		Key: {
+			id,
+		},
+	};
+
+	const data = await documentClient.delete(params).promise();
+
+	return data;
+};
