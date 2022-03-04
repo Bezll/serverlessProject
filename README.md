@@ -11,7 +11,7 @@ The team for this project consists of Jabez Souttar, Tom Mann, James Reed and As
 
 ## Stack
 
-Serverless Framework,  Node.js, AWS Services - (API Gateway, Lambda, DynamoDB, SES, Amplify, Cognito, Cloudformation)
+Serverless Framework, Node.js, AWS Services - (API Gateway, Lambda, DynamoDB, SES, Amplify, Cognito, Cloudformation)
 
 ## Installation
 
