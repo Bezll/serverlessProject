@@ -33,8 +33,6 @@ npm install aws-cli-js
 
 You can deploy the aplication by running the below command, there is also a local offline mode for debugging.
 
-![flow chart](https://github.com/Bezll/serverlessProject/blob/master/flow-chart.png)
-
 ```bash
 npm run deploy
 ```
@@ -42,6 +40,11 @@ npm run deploy
 ```bash
 npm run local
 ```
+
+## Flow chart
+
+![flow chart](https://github.com/Bezll/serverlessProject/blob/master/flow-chart.png)
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
