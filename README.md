@@ -13,6 +13,10 @@ The team for this project consists of Jabez Souttar, Tom Mann, James Reed and As
 
 Serverless Framework, Node.js, AWS Services - (API Gateway, Lambda, DynamoDB, SES, Amplify, Cognito, Cloudformation)
 
+## Flow chart
+
+![flow chart](https://github.com/Bezll/serverlessProject/blob/master/flow-chart.png)
+
 ## Installation
 
 Use the package manager npm to install this project.
@@ -40,11 +44,6 @@ npm run deploy
 ```bash
 npm run local
 ```
-
-## Flow chart
-
-![flow chart](https://github.com/Bezll/serverlessProject/blob/master/flow-chart.png)
-
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
